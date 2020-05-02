@@ -23,7 +23,7 @@ function generatePassword() {
   var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
   //prompt for length of password
-  var passwordLength = parseInt(prompt("Length?"));
+  var passwordLength = parseInt(prompt("How many characters do you want your password to have?"));
 
   // validador for password length
   if (passwordLength < 8 || passwordLength > 128) {
@@ -34,7 +34,7 @@ function generatePassword() {
     if (passwordLength >= 8 && passwordLength <= 128) {
       validator = true;
     }
-    else {alert("Your password must be between 8 and 128 characters.");}
+    else {alert("Your password must be between 8 and 128 characters for security purposes.");}
     }
   }
 
