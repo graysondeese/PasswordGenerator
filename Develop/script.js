@@ -73,10 +73,8 @@ function generatePassword() {
     var randomCharacter = randomizer[Math.floor(Math.random() * randomizer.length)];
     // add the character to the password
     result += randomCharacter;
-    
   }
 
-
   
-  return result; //maybe change to show up in password box
+  return result; 
 }
