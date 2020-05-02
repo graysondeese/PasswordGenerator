@@ -22,8 +22,10 @@ function generatePassword() {
 
   var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-
+  //prompt for length of password
   var passwordLength = parseInt(prompt("Length?"));
+
+  // validador for password length
   if (passwordLength < 8 || passwordLength > 128) {
     alert("Your password must be between 8 and 128 characters.");
     var validator = false;
@@ -35,14 +37,13 @@ function generatePassword() {
     else {alert("Your password must be between 8 and 128 characters.");}
     }
   }
-  
 
+  //confirmations for password critera
   var wantsSpecials = confirm("Do you want special characters?");
   var wantsUppers = confirm("Do you want uppercase characters?");
   var wantsLowers = confirm("Do you want lowercase characters?");
   var wantsNumbers = confirm("Do you want numbers?"); 
-
-
+  //validator for password critera
 
   var possibles = [];
 
@@ -72,8 +73,10 @@ function generatePassword() {
     var randomCharacter = randomizer[Math.floor(Math.random() * randomizer.length)];
     // add the character to the password
     result += randomCharacter;
+    
   }
 
 
+  
   return result; //maybe change to show up in password box
 }
