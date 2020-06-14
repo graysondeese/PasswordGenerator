@@ -6,6 +6,6 @@ Users can choose how long they want their password to be as well as if the want 
 ******
 <a href="https://graysondeese.github.io/PasswordGenerator/">Password Generator</a>
 ******
-#Screenshot
+# Screenshot
 ****
 ![password generator demo](./Assets/03-javascript-homework-demo.png)
