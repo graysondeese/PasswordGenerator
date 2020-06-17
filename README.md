@@ -3,6 +3,6 @@ Users can choose how long they want their password to be as well as if the want 
 ******
 Heres a link to the deployed application: https://graysondeese.github.io/PasswordGenerator/
 ******
-A picture of the working application can be found below:
+A demonstration of the working application can be found below:
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+<img src="Assets/pwGen.gif">
